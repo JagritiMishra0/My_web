@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 
 const Header = () => {
+  const [nav , setNav] = useState(false)
+  const handleClick = () =>(
+    setNav(!nav)
+  )
+  
   return (
     <>
-    <header className='header_bar'>
+    <div className='header_bar'>
                {/* logo */}
             <a   href='/' className='logo_bar'>Jagriti.</a>
             <nav className='nav_bar'>
@@ -14,7 +19,7 @@ const Header = () => {
                 <a href='' >Skills</a>
                 <a  href='' >Contact</a>
             </nav>  
-    </header>
+    </div>
     </>
   )
 }

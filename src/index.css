@@ -11,6 +11,9 @@
 }
 
 body{
-    background-color: var(--bg-color) ;
+    background-color: black;
+    /* background-color: var(--bg-color) ; */
     color: var(--text-color);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; */
+
 }
