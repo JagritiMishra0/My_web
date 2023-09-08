@@ -1,6 +1,6 @@
 :root {
     --bg-color: rgb(1, 17, 27);
-    --second-bg-color: rgb(110, 203, 228);
+    --second-bg-color: rgb(7, 116, 147);
     --text-color: #ededed;
     --color: #00abf0;
 
@@ -17,7 +17,7 @@ section {
     display: flex;
     align-items: center;
     padding: 04%;
-    background: url('https://t4.ftcdn.net/jpg/02/57/62/11/360_F_257621136_9WYHVZoFnlxyMxqxv6vlRbCH8A5EMNJM.jpg') no-repeat ;
+    /* background: url('https://t4.ftcdn.net/jpg/02/57/62/11/360_F_257621136_9WYHVZoFnlxyMxqxv6vlRbCH8A5EMNJM.jpg') no-repeat ; */
     
     background-size: cover;
     background-position: center;

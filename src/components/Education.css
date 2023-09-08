@@ -1,0 +1,52 @@
+.all-edu{
+
+}
+
+
+.all-edu .all-txt{
+    position: relative;
+    padding: 2.7rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    z-index: 1;
+    border: 2px solid var(--text-color);
+    border-radius: .75rem;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .btn-box .btn:nth-child(2){
+    background: transparent;
+    color: var(--color);
+} */
+.all-edu .all-txt::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    border-radius: .75rem;
+    /* background: var(--bg-color); */
+    background-color: black;
+}
+
+.all-edu .all-txt::before {
+    width: 100%;
+
+}
+
+.all-edu .all-txt:hover {
+    color: var(--color);
+    border-radius: .75rem;
+    border: 2px solid var(--color);
+}
